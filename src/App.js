@@ -4,7 +4,8 @@ import './css/main.css'
 import Header from './Components/Header';
 import About from './Components/About';
 import Home from './Components/Home';
-import Extra from './Components/Extra';
+import Experience from './Components/Experience';
+import Education from './Components/Education';
 import Footer from './Components/Footer';
 
 function App() {
@@ -13,7 +14,10 @@ function App() {
         <Header />
         <Home />
         <About />
+        <Experience />
+        <Education />
         <Footer />
+        
     </div>
   );
 }

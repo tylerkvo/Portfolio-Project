@@ -1,5 +1,8 @@
 import React from 'react'
 import treepic from "../images/treepic.jpg" 
+import colorado from "../images/colorado.jpeg" 
+import family from "../images/family.jpeg"
+import hoos from "../images/hoos.jpeg"
 function About() {
   return (
         <section id="about" className="s-about target-section">
@@ -8,193 +11,86 @@ function About() {
                 <div className="row">
                     <div className="column large-6 medium-8 tab-full">
 
-                        <div className="section-intro" data-num="01" data-aos="fade-up">
+                        <div className="section-intro" data-num="" data-aos="fade-up">
                             <h3 className="subhead">About Me</h3>
                             <h1 className="display-1">I'd climb any branch or tree to achieve my goal.</h1>
                         </div>
 
-                        <div className="profile-pic" data-aos="fade-up">
+                        <div className="profile-pic-right" data-aos="fade-up">
                             <img src={treepic} alt="Image"/>
                         </div>
 
                         <h3 data-aos="fade-up">Profile</h3>
 
                         <p data-aos="fade-up">
-                        Rising third-year student at the University of Virginia interested in studying Commerce, Computer Science, and Data Science. I have strong interest in consulting and tech roles.
+                        I am a third-year student at the University of Virginia's McIntire School of Commerce studying Commerce, Computer Science, and Data Science. I have strong interest in consulting and tech roles.
                         </p>
 
                     </div>
+                    
                 </div>
-                
-            </div> 
-    
-            <div className="s-about__section">
-
                 <div className="row">
-                    <div className="column">
-                        <h3 data-aos="fade-up">Experience</h3>
+                    <div className="column large-6 medium-8 tab-full"></div>
+                    <div className="column large-6 medium-8 tab-full">
+
+                        <div className="profile-pic-left" data-aos="fade-up">
+                            <img src={family} alt="Image"/>
+                        </div>
+                        <h3 data-aos="fade-up"></h3>
+                        <p data-aos="fade-up">
+                        On a more fun note, welcome to my portfolio! This is a work in progress and I hope to continue progressing on this when I find time or accomplish something new to add! Now a little bit about me...
+                        </p>
+                        <p data-aos="fade-up">
+                        While my family comes from Vietnam, my sister LeAnn and I were born and raised in the Hampton Roads – a part of Virginia referred to as the 757!
+                        </p>
+                        <p>
+                        There, I studied at Menchville High School. Back in high school, I played attack and goalie for our lacrosse team, was drum major for my marching bank, and even earned the scouting rank of Eagle along the way!
+                        </p>
                     </div>
                 </div>
-
-                <div className="row block-large-1-2 block-900-full work-positions">
-
-                    <div className="column" data-aos="fade-up">
-                        <div className="position">
-                            <div className="position__header">
-                                <h6>
-                                    <span className="position__co">Coastal Cloud</span>
-                                    <span className="position__pos">Jr. Analyst Intern</span>
-                                </h6>
-                                <div className="position__timeframe">
-                                    May 2022 - Present
-                                </div>
-                            </div>
-
-                            <p>
-                            • Partaking in client discovery sessions and documenting requirements and business processes to develop custom solutions within the Salesforce platform for clients to consult business challenges
-                            </p>
-                        </div>
-                    </div> 
-                    <div className="column" data-aos="fade-up">
-                        <div className="position">
-                            <div className="position__header">
-                                <h6>
-                                    <span className="position__co">Virginia Case Club</span>
-                                    <span className="position__pos">Consulting Analyst</span>
-                                </h6>
-                                <div className="position__timeframe">
-                                    September 2021 - Present
-                                </div>
-                            </div>
-
-                            <p>
-                            • Completed a rigorous semester-long training program focused on verbal communication, presentation techniques, and case analysis <br />
-                            • Leverage these skills towards creating solutions for case competitions and difficult business situations
-                            </p>
-                        </div>
-                    </div> 
-                    <div className="column" data-aos="fade-up">
-                        <div className="position">
-                            <div className="position__header">
-                                <h6>
-                                    <span className="position__co">Lighthouse</span>
-                                    <span className="position__pos">Financial Analyst Intern</span>
-                                </h6>
-                                <div className="position__timeframe">
-                                    Febuary 2021 - April 2021
-                                </div>
-                            </div>
-
-                            <p>
-                            • Performed a valuation for an online security start-up, targeting insufficiencies of current solutions in the protection of children against inappropriate online imagery and video content <br />
-                            • Conducted market research to advise on the multiple revenue strategies within the company’s SAAS business model
-                            </p>
-                        </div>
-                    </div> 
-                    <div className="column" data-aos="fade-up">
-                        <div className="position">
-                            <div className="position__header">
-                                <h6>
-                                    <span className="position__co">Nail Luv & Spa</span>
-                                    <span className="position__pos">Administrative Assistant</span>
-                                </h6>
-                                <div className="position__timeframe">
-                                    June 2018 - July 2021
-                                </div>
-                            </div>
-
-                            <p>
-                            • Managed customer relations, appointments, service preparations, and cleaning at my family-owned business <br />
-                            • Advised owners on marketing options and facilitated the teaching and speaking of English in a predominately Vietnamese-speaking workplace to foster improved customer services
-                            </p>
-                        </div>
-                    </div> 
-
-                </div> 
-
-            </div> 
-            <div className="s-about__section">
-
                 <div className="row">
-                    <div className="column">
-                        <h3 data-aos="fade-up">Education</h3>
+                    <div className="column large-6 medium-8 tab-full">
+                        <div className="profile-pic-right" data-aos="fade-up">
+                            <img src={hoos} alt="Image"/>
+                        </div>
+                        <h3 data-aos="fade-up"></h3>
+                        <p data-aos="fade-up">
+                        Go Hoos! I choose UVA because of the world reknowned food and dining. It is hard to tell with just text, that was aggressive sarcasm. I really chose UVA because of the beautiful campus and value per dollar!
+                        </p>
+                        <p data-aos="fade-up">
+                        Here, I love to explore food around Charlottesville, meet as many people as I possibly can, and figure out who I am and who I want to be (I spend a lot of time doing that last one). 
+                        </p>
+                        <p data-aos="fade-up">
+                        For fun, I complete endless amounts of projects with my brothers in Pi Lambda Phi (I am looking at you table it took me 15 hours to paint), explore my culture and race to finish bowls of pho with the Vietnamese Student Association, and speed (or make my way at a reasonable pace) down the slopes with VASST ski team! 
+                        </p>
+
                     </div>
+                    
                 </div>
 
-                <div className="row block-large-1-2 block-900-full work-positions">
+                <div className="row">
+                    <div className="column large-6 medium-8 tab-full"></div>
+                    <div className="column large-6 medium-8 tab-full">
 
-                    <div className="column" data-aos="fade-up">
-                        <div className="position">
-                            <div className="position__header">
-                                <h6>
-                                    <span className="position__co">UVA McIntire School of Commerce</span>
-                                    <span className="position__pos">Bachelor of Science - BS, Commerce</span>
-                                </h6>
-                                <div className="position__timeframe">
-                                    August 2022 - May 2024
-                                </div>
-                            </div>
-
-                            <p>
-                            Activities and societies: C.A.S.H at Madison House, Virginia Case Club
-                            </p>
+                        <div className="profile-pic-left" data-aos="fade-up">
+                            <img src={colorado} alt="Image"/>
                         </div>
-                    </div> 
-                    <div className="column" data-aos="fade-up">
-                        <div className="position">
-                            <div className="position__header">
-                                <h6>
-                                    <span className="position__co">University of Virginia</span>
-                                    <span className="position__pos">Bachelor of Arts - BA, Computer Science</span>
-                                </h6>
-                                <div className="position__timeframe">
-                                    September 2020 - May 2024
-                                </div>
-                            </div>
-
-                            <p>
-                            Activities and societies: Vietnamese Student Association, IM Sports, VASST, Greek Life (Social Chair)
-                            </p>
-                        </div>
-                    </div> 
-                    <div className="column" data-aos="fade-up">
-                        <div className="position">
-                            <div className="position__header">
-                                <h6>
-                                    <span className="position__co">Mechville High School</span>
-                                    <span className="position__pos">Advanced Studies Diploma</span>
-                                </h6>
-                                <div className="position__timeframe">
-                                    September 2016 - June 2020
-                                </div>
-                            </div>
-
-                            <p>
-                            Activities and societies: Lacrosse (Co-Captain), Marching Band (Drum Major), National Honor Society, National Science Honor Society, French Honor Society, Tri-M Honor Society, Model UN, Key Club
-                            </p>
-                        </div>
-                    </div> 
-                    <div className="column" data-aos="fade-up">
-                        <div className="position">
-                            <div className="position__header">
-                                <h6>
-                                    <span className="position__co">Summer Residential Governors School</span>
-                                    <span className="position__pos">Math, Science, & Technology</span>
-                                </h6>
-                                <div className="position__timeframe">
-                                    June 2019 - July 2019
-                                </div>
-                            </div>
-
-                            <p>
-                            Dirt Under the Fingernails Mathematics: Systems Which Evolve Over Time, Combinatorial Game Theory, Number Theory, Graph Theory, and Cellular Automaton.
-                            </p>
-                        </div>
-                    </div> 
-
-                </div> 
-
-            </div> 
+                        <h3 data-aos="fade-up"></h3>
+                        <p data-aos="fade-up">
+                        More about me? I am a highly energic and passionate individual who wants to try and do everything there is. Maybe one day I'll learn to fly a plane or become a politician. But lets not get ahead of ourselves...
+                        </p>
+                        <p data-aos="fade-up">
+                        In my free time, I appreciate outdoorsy activities, including but not limited to: golf, skiing, scuba diving, spike-ball, long and skim boarding, and team sports. I dabble in music – mostly trombone, but I am starting to get good at guitar so ladies watch out!
+                        </p>
+                        <p>
+                        Beyond that, I try to cook, occasionally game and scroll through Reddit, stay up to date with news, solve the daily NYT crossword (can never finish past Wednesday for some reason), and will die for Justin Herbert and the Chargers. Now on to a little about my professional career so far!
+                        
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+           
         </section> 
   )
 }

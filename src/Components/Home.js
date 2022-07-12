@@ -1,8 +1,7 @@
 import React from 'react'
-import bg from '../images/test.jpeg'
 function Home() {
   return (
-    <section id="hero" className="s-hero target-section" data-parallax="scroll" data-image-src={bg} data-natural-width={3000} data-natural-height={2000} data-position-y= {"center"} >
+    <section id="hero" className="s-hero target-section" data-parallax="scroll" data-natural-width={3000} data-natural-height={2000} data-position-y= {"center"} >
         
         <div className="row hero-content">
             

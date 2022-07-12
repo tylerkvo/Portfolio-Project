@@ -17,6 +17,8 @@ function Header() {
                 <ul className="header-nav">
                     <li><a className="smoothscroll" href="#home" title="Intro">Home</a></li>
                     <li><a className="smoothscroll" href="#about" title="About">About</a></li>
+                    <li><a className="smoothscroll" href="#experience" title="About">Experience</a></li>
+                    <li><a className="smoothscroll" href="#education" title="About">Education</a></li>
                     <li><a href="#contact" title="Contact us">Contact</a></li>
                 </ul>
             </nav> 
