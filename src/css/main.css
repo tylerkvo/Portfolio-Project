@@ -2092,7 +2092,7 @@ input::-moz-focus-inner {
 .hero-social a:hover,
 .hero-social a:focus,
 .hero-social a:active {
-  color: #f9861a;
+  color: rgb(249, 134, 26);
 }
 
 .hero-social li {
@@ -2423,7 +2423,7 @@ html.no-csstransitions .hero-content {
 
 /* ===================================================================
  * # about section
- *
+ * 24vw and 40 vw
  * ------------------------------------------------------------------- */
 .s-about {
   padding-bottom: 8rem;
@@ -2459,13 +2459,13 @@ html.no-csstransitions .hero-content {
 }
 
 .s-about__section--profile .profile-pic-right {
-  width: 24vw;
+  width: 360px;
   position: absolute;
   top: 8rem;
   left: calc(55% + 80px);
 }
 .s-about__section--profile .profile-pic-left {
-  width: 40vw;
+  width: 550px;
   position: absolute;
   top: 8rem;
   left: calc(-10% + 80px);
@@ -2518,54 +2518,21 @@ html.no-csstransitions .hero-content {
   left: calc(50% + 80px);
   
 }
+.vertical-timeline-element-date{
+  text-align: left;
+  font-size: 17px !important;
+}
 /* ===================================================================
  * # education section
  *
  * ------------------------------------------------------------------- */
  .s-education {
   padding-bottom: 8rem;
-  background-color: #ffffff;
-  position: relative;
-}
-
-.s-education .right-vert-line {
-  background-color: #302c59;
-}
-
-.s-education__section--profile {
-  padding-top: 12rem;
-  padding-bottom: 4rem;
-  min-height: 40rem;
-  position: relative;
-  text-align: left;
-}
-
-.s-education__section--profile::before {
-  content: "";
-  display: block;
   background-color: #b3c2c1;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: calc(50% + 12vw);
-  
-  
-}
-
-.s-education__section--profile .row {
   position: relative;
-  
-  
 }
 
-.s-education__section--profile .profile-pic {
-  width: 24vw;
-  position: absolute;
-  top: 8rem;
-  left: calc(50% + 80px);
-  
-}
+
 /* ------------------------------------------------------------------- 
  * ## career position
  * ------------------------------------------------------------------- */
@@ -2628,8 +2595,10 @@ html.no-csstransitions .hero-content {
   text-transform: uppercase;
   letter-spacing: .3rem;
   color: #7e7e7e;
-  
-  
+}
+.position__body {
+  font-family: "Martel", serif;
+  font-size: 17px;
 }
 
 /* ------------------------------------------------------------------- 

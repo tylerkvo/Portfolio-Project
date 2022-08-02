@@ -58,7 +58,7 @@ function Footer() {
             <div className="row s-footer__bottom">
                 <div className="column large-full ss-copyright">
                     <span>Created by Tyler Vo</span> 
-                    <span>Design by StyleShout</span>
+                    <span>Design Inspired by StyleShout</span>
                 </div> 
 
                 <div className="ss-go-top">

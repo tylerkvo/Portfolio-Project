@@ -8,7 +8,7 @@ function Home() {
             <div className="column large-full">
 
                 <h1>
-                Hello, I'm Tyler Vo <br/>
+                I'm Tyler Vo <br/>
                 Welcome to my Portfolio <br/>
                 
                 </h1>
