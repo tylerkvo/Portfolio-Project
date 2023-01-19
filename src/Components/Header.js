@@ -1,34 +1,39 @@
 import React from 'react'
-import logo from '../images/profilePic.png'
+
+
 function Header() {
   return (
     
-    <header className="s-header">
+    <header id="masthead" className="s-header">
 
-        <div className="header-logo">
-            <a href="index.html">
-                <img src={logo} alt="Homepage"/>
-            </a>
-        </div>
+             <div className="s-header__block">
+                <div className="s-header__branding">
+                    <p className="site-title">
+                        <a href="" rel="home">tyler vo.</a>
+                    </p>
+                </div>
 
-        <div className="header-content">
-    
-            <nav className="row header-nav-wrap">
-                <ul className="header-nav">
-                    <li><a className="smoothscroll" href="#home" title="Intro">Home</a></li>
-                    <li><a className="smoothscroll" href="#about" title="About">About</a></li>
-                    <li><a className="smoothscroll" href="#experience" title="About">Experience</a></li>
-                    <li><a className="smoothscroll" href="#education" title="About">Education</a></li>
-                    <li><a href="#contact" title="Contact us">Contact</a></li>
-                </ul>
-            </nav> 
+               
+            </div> 
 
-            <a href="https://drive.google.com/file/d/1d1uGdYBhN5zKIZRBEVNdRYCFGEh8-V5S/view?usp=sharing" className="btn btn--stroke btn--small">Download Resume</a>
+            <div className="row s-header__nav-wrap">
 
-        </div> 
+                <nav className="s-header__nav">
+                    <ul>
+                        <li className="current"><a href="#intro" className="smoothscroll">intro</a></li>
+                        <li><a href="#about" className="smoothscroll">about</a></li>
+                        <li><a href="#resume" className="smoothscroll">resume</a></li>
+                        <li><a href="#works" className="smoothscroll">works</a></li>
+                        <li><a href="#colophon" className="smoothscroll">contact</a></li>
+                    </ul>
+                </nav> 
 
-        <a className="header-menu-toggle" href="#0"><span>Menu</span></a>
+                <ul className="s-header__social">
+                    
+                </ul>  
 
+            </div> 
+            
     </header> 
   )
 }

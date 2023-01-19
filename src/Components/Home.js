@@ -1,9 +1,8 @@
 import React from 'react'
 function Home() {
   return (
-    <section id="hero" className="s-hero target-section" data-parallax="scroll" data-natural-width={3000} data-natural-height={2000} data-position-y= {"center"} >
-        
-        <div className="row hero-content">
+    <section id="intro" className="s-intro">
+            <div className="row">
             
             <div className="column large-full">
 
@@ -27,13 +26,7 @@ function Home() {
                 
             </div> 
         </div> 
-
-        <div className="hero-scroll">
-            <a href="#about" className="scroll-link smoothscroll">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 24l-8-9h6v-15h4v15h6z"/></svg>
-            </a>
-        </div> 
-    
+            
     </section> 
   )
 }

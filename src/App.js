@@ -1,23 +1,27 @@
-import './App.css';
-import './css/base.css'
-import './css/main.css'
 import Header from './Components/Header';
 import About from './Components/About';
 import Home from './Components/Home';
 import Experience from './Components/Experience';
-import Education from './Components/Education';
+import Works from './Components/Works';
 import Footer from './Components/Footer';
+import Particle from './Components/Particle';
+
 
 function App() {
+  
   return (
+    
     <div className="App">
+      
+      <div id="page" class="s-pagewrap">
+        <Particle/>
         <Header />
         <Home />
         <About />
         <Experience />
-        <Education />
+        <Works />
         <Footer />
-        
+      </div>
     </div>
   );
 }

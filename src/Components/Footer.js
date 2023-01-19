@@ -3,72 +3,71 @@ import React from 'react'
 function Footer() {
   return (
     <section id="contact">
-    <footer className="s-footer h-dark-bg">
-            
+   
+        <footer id="colophon" class="s-footer">
 
-            <div className="row s-footer__main">
-                <div className="column large-6">
-                    <div className="section-intro" data-aos="fade-up">
-                        <h3 className="subhead">Get In Touch</h3>
+            <div class="row s-footer__contact-header">
+                <div class="column lg-12">
+                    <h2 class="text-pretitle">Get In Touch</h2>
 
-                        <h1 className="display-1">
-                        Have an opportunity that I would be a perfect fit for?
-                        Let's turn that idea into reality. 
-                        </h1>
-                    </div>
-
-                    <div className="footer-email-us">
-                        <a href="mailto:tyler.k.vo@gmail.com" className="btn btn--primary h-full-width">Let's Talk</a>
-                    </div>
-                </div>
-
-                <div className="column large-5">
-                    <div className="footer-contacts">
-                        <div className="footer-contact-block" data-aos="fade-up">
-                            <h5 className="footer-contact-block__header">
-                                Email
-                            </h5>
-                            <p className="footer-contact-block__content">
-                                <a href="mailto:tyler.k.vo@gmail.com">tyler.k.vo@gmail.com</a> <br />
-                                <a href="mailto:tkv9zd@virginia.edu">tkv9zd@virginia.edu</a>
-                            </p>
-                        </div> 
-                        <div className="footer-contact-block" data-aos="fade-up">
-                            <h5 className="footer-contact-block__header">
-                                Phone
-                            </h5>
-                            <p className="footer-contact-block__content">
-                                <a href="tel:+17575250353">+1 757 525 0353</a>
-                            </p>
-                        </div> 
-                    
-                        <div className="footer-contact-block" data-aos="fade-up">
-                            <h5 className="footer-contact-block__header">
-                                Social
-                            </h5>
-                            <ul className="footer-contact-block__list">
-                                <li><a href="https://twitter.com/tylerrkvo">Twitter</a></li>
-                                <li><a href="https://instagram.com/tylerr.vo">Instagram</a></li>
-                            </ul>
-                        </div> 
-                    </div>
+                    <p class="text-huge-title">
+                        Feel free to reach out if you wanna collaborate with me or have a chat.
+                    </p>
                 </div>
             </div> 
 
-            <div className="row s-footer__bottom">
-                <div className="column large-full ss-copyright">
+            <div class="row s-footer__contact-content">
+
+                <div class="column lg-5 md-6 stack-on-900 left-block">
+                    <p>
+                    If my skills and qualifications seem like a good fit, please don't hesitate to contact me! 
+                    </p>
+
+                    <div class="s-footer__buttons">
+                        <a href="mailto:tyler.k.vo@gmail.com" class="btn btn--primary u-fullwidth">Say Hello</a>
+                        <a href="https://drive.google.com/file/d/1d1uGdYBhN5zKIZRBEVNdRYCFGEh8-V5S/view?usp=sharing" class="btn btn--stroke u-fullwidth">Download Resume</a>
+                    </div>
+
+                    
+                </div>
+
+                <div class="column lg-4 md-5 stack-on-900 right-block">
+
+                    <div class="s-footer__contact-info" >
+                        <h2 class="text-subtitle">
+                            Contact
+                        </h2>
+                        <ul class="link-list">
+                            <li><a href="mailto:tyler.k.vo@gmail.com">tyler.k.vo@gmail.com</a></li>
+                            <li><a href="mailto:tkv9zd@virginia.edu">tkv9zd@virginia.edu</a></li>
+                            <li><a href="tel:7575250353">(757) 525-0353</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="s-footer__social">
+                        <h2 class="text-subtitle">
+                            Connect
+                        </h2>
+                        <ul class="link-list">
+                            <li><a href="https://www.linkedin.com/in/tylerkvo">LinkedIn</a></li>
+                            <li><a href="https://twitter.com/tylerrkvo">Twitter</a></li>
+                            <li><a href="https://instagram.com/tylerr.vo">Instagram</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div> 
+
+            <div class="row s-footer__bottom">
+                <div class="column ss-copyright">
                     <span>Created by Tyler Vo</span> 
                     <span>Design Inspired by StyleShout</span>
-                </div> 
+                </div>
 
-                <div className="ss-go-top">
-                    <a className="smoothscroll" title="Back to Top" href="#top">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0l8 9h-6v15h-4v-15h-6z"/></svg>
-                    </a>
-                </div> 
-            </div>
+                
+            </div> 
 
-        </footer> 
+        </footer>
         </section>
   )
 }
