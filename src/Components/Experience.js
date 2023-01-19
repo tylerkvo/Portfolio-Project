@@ -140,7 +140,7 @@ function resume() {
             <div className="row s-resume__clients" >
                 <div className="column lg-12" >
 
-                    <h2 className="text-pretitle">Clubs and Activies</h2>
+                    <h2 className="text-pretitle">Clubs and Activities</h2>
 
                     <ul className="clients-list text-small-title">
                         <li><a href="https://uva.pilambdaphi.org/">Pi Lambda Phi </a></li>
