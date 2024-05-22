@@ -10,7 +10,7 @@ function resume() {
                     <h2 className="text-pretitle">Resume</h2>
 
                     <p className="text-huge-title">
-                    Here is my education, work experience, & some skills I've got.
+                    Here is my education, work experience, & some clubs I am involved in.
                     </p>
                 </div>
             </div>
@@ -23,6 +23,43 @@ function resume() {
                     </h2>
 
                     <div className="timeline">
+                        <div className="timeline__block">
+                            <div className="timeline__bullet"></div>
+                            <div className="timeline__header">
+                                <h4 className="timeline__title">Booz Allen Hamilton</h4>
+                                <h5 className="timeline__meta">Junior Consultant</h5>
+                                <p className="timeline__timeframe">January 2024 – April 2024</p>
+                            </div>
+                            <div className="timeline__desc">
+                            <p>
+                                <ul>
+                                    <li>Supported cloud lifecycle management product by conducting market research of competitive products, synthesizing findings into compelling presentations that informed strategic planning and product positioning</li>
+                                    
+                                    <li>Developed and refined Python scripts to cleanse survey data into impactful Tableau visualizations, and spearheaded automation processes using Excel macros to reduce manual project workflows by 40% </li>
+                                </ul>
+                            </p>
+
+                            </div>
+                        </div>
+
+                        <div className="timeline__block">
+                            <div className="timeline__bullet"></div>
+                            <div className="timeline__header">
+                                <h4 className="timeline__title">Curtis&Co</h4>
+                                <h5 className="timeline__meta">Summer Analyst</h5>
+                                <p className="timeline__timeframe">June 2023 – August 2023</p>
+                            </div>
+                            <div className="timeline__desc">
+                            <p>
+                                <ul>
+                                    <li>Engaged directly with client leadership to build executive heatmap for 36 KPIs over 15 different business areas, reducing the time to prioritize focus, compare metrics, and monitor progress over time periods</li>
+                                    
+                                    <li>Conducted 11+ hours of stakeholder interviews to develop 28 standard operating procedures and process maps to drive system transformation, document pain points, and recommend process improvements </li>
+                                </ul>
+                            </p>
+
+                            </div>
+                        </div>
 
                         <div className="timeline__block">
                             <div className="timeline__bullet"></div>
@@ -95,7 +132,7 @@ function resume() {
                                 <p className="timeline__timeframe">May 2024</p>
                             </div>
                             <div className="timeline__desc">
-                                <p>Foundations of Commerce, Intro to Financial Accounting, Intro to Management Accounting, Strategy and Systems, Behavior Issues in Marketing and Management, Quantitative and Financial Management, Stategic Value Creation, Managerial Decision Making, Project & Product Management, Commercial Law I and II</p>
+                                <p>Business Analytics with Python, Database Management Systems & Business Intelligence, Market Research & Analytic Technology, Ethical Applications of Artificial Intelligence, Foundations of Commerce, Intro to Financial Accounting, Intro to Management Accounting, Strategy and Systems, Behavior Issues in Marketing and Management, Quantitative and Financial Management, Stategic Value Creation, Managerial Decision Making, Project & Product Management, Commercial Law I and II</p>
                             </div>
                         </div>
 
@@ -103,11 +140,11 @@ function resume() {
                             <div className="timeline__bullet"></div>
                             <div className="timeline__header">
                                 <h4 className="timeline__title">University of Virginia</h4>
-                                <h5 className="timeline__meta">Bachelor of Arts, Computer Science</h5>
+                                <h5 className="timeline__meta">Minor, Computer Science</h5>
                                 <p className="timeline__timeframe">May 2024</p>
                             </div>
                             <div className="timeline__desc">
-                                <p>Introduction to Programming, Discrete Mathematics, Software Development Methods, Program & Data Representation, Data Structures and Algorithms 2, Advanced Software Development, Programming for Data Science, Principles of Econ: Microecon and Macroecon, Intro to Statistical Analysis</p>
+                                <p> Mobile Application Development, Intro into Cybersecurity, Introduction to Programming, Discrete Mathematics, Software Development Methods, Program & Data Representation, Data Structures and Algorithms 2, Advanced Software Development, Computer Game Design, Programming for Data Science, Principles of Econ: Microecon and Macroecon, Intro to Statistical Analysis</p>
                             </div>
                         </div>
 
@@ -143,10 +180,11 @@ function resume() {
                     <h2 className="text-pretitle">Clubs and Activities</h2>
 
                     <ul className="clients-list text-small-title">
-                        <li><a href="https://uva.pilambdaphi.org/">Pi Lambda Phi </a></li>
+                        <li><a href="https://www.linkedin.com/company/virginia-product-circle/">Virginia Product Circle</a></li>
                         <li><a href="https://www.vccatuva.org/">Virginia Case Club</a></li>
-                        <li><a href="https://www.vsaatuva.org/">Vietnamese Student Association</a></li>
                         <li><a href="https://vasst.org/#intro">VASST</a></li>
+                        <li><a href="https://www.vsaatuva.org/">Vietnamese Student Association</a></li>
+                        <li><a href="https://uva.pilambdaphi.org/">Pi Lambda Phi </a></li>
                         <li><a href="https://www.commerce.virginia.edu/student-orgs/asn">Asian Student Network at McIntire</a></li>
                         <li><a href="https://www.madisonhouse.org/overview-cash">CASH at Madison House</a></li>
                         

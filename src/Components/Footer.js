@@ -25,7 +25,7 @@ function Footer() {
 
                     <div class="s-footer__buttons">
                         <a href="mailto:tyler.k.vo@gmail.com" class="btn btn--primary u-fullwidth">Say Hello</a>
-                        <a href="https://drive.google.com/file/d/1d1uGdYBhN5zKIZRBEVNdRYCFGEh8-V5S/view?usp=sharing" class="btn btn--stroke u-fullwidth">Download Resume</a>
+                        <a href="https://drive.google.com/file/d/1eVgy2Wroe9vfWD7j570d4R2fet94yGlc/view?usp=sharing" class="btn btn--stroke u-fullwidth">Download Resume</a>
                     </div>
 
                     
@@ -50,7 +50,6 @@ function Footer() {
                         </h2>
                         <ul class="link-list">
                             <li><a href="https://www.linkedin.com/in/tylerkvo">LinkedIn</a></li>
-                            <li><a href="https://twitter.com/tylerrkvo">Twitter</a></li>
                             <li><a href="https://instagram.com/tylerr.vo">Instagram</a></li>
                         </ul>
                     </div>

@@ -1,0 +1,39 @@
+.project-header {
+  width: 100%;
+  position: fixed;  /* Only if you want a fixed header */
+  top: 0;
+  left: 0;
+  height: 10rem;  /* Your header height */
+  background-color: white;
+  z-index: 1000;  /* To ensure the header is above other content */
+}
+
+.project-container {
+  margin-top: 10rem;  /* Match the header height */
+  display: flex;
+  height: calc(100vh - 10rem);  /* Subtract header height from total viewport height */
+  overflow: hidden;
+}
+
+  
+.video-column {
+  width: 50%; /* Take up half the screen */
+  height: 100%; /* Full height */
+  position: fixed; /* Fix position relative to the viewport */
+  left: 0;
+}
+
+.project-text-column {
+  flex: 1; /* This will make the text column take the remaining space */
+  width: 50%; /* Ensure this is consistent */
+  margin-left: 50%; /* Exactly offset by the width of the video column */
+  overflow-y: auto;
+  height: calc(100vh - 10rem);
+  padding: 20px;
+  box-sizing: border-box; /* Ensures padding is included in the width */
+  display: flex;
+  flex-direction: column;
+}
+  
+
+  

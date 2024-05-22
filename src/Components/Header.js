@@ -9,7 +9,7 @@ function Header() {
              <div className="s-header__block">
                 <div className="s-header__branding">
                     <p className="site-title">
-                        <a href="" rel="home">tyler vo.</a>
+                        <a href="../" rel="home">tyler vo.</a>
                     </p>
                 </div>
 
@@ -20,11 +20,11 @@ function Header() {
 
                 <nav className="s-header__nav">
                     <ul>
-                        <li className="current"><a href="#intro" className="smoothscroll">intro</a></li>
-                        <li><a href="#about" className="smoothscroll">about</a></li>
-                        <li><a href="#resume" className="smoothscroll">resume</a></li>
-                        <li><a href="#works" className="smoothscroll">works</a></li>
-                        <li><a href="#colophon" className="smoothscroll">contact</a></li>
+                        <li className="current"><a href="../" className="smoothscroll">intro</a></li>
+                        <li><a href="../#about" className="smoothscroll">about</a></li>
+                        <li><a href="../#resume" className="smoothscroll">resume</a></li>
+                        <li><a href="../#works" className="smoothscroll">works</a></li>
+                        <li><a href="../#colophon" className="smoothscroll">contact</a></li>
                     </ul>
                 </nav> 
 

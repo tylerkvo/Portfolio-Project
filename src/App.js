@@ -5,24 +5,23 @@ import Experience from './Components/Experience';
 import Works from './Components/Works';
 import Footer from './Components/Footer';
 import Particle from './Components/Particle';
+import Project from './Components/Project';
+import { BrowserRouter as Router, Route, Routes,} from "react-router-dom";
 
 
 function App() {
   
   return (
-    
-    <div className="App">
-      
-      <div id="page" class="s-pagewrap">
-        <Particle/>
-        <Header />
-        <Home />
-        <About />
-        <Experience />
-        <Works />
-        <Footer />
+    <Router>
+      <div className="App">
+        <div id="page" className="s-pagewrap">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/projects/:projectId" element={<Project />} />
+          </Routes>
+        </div>
       </div>
-    </div>
+    </Router>
   );
 }
 
