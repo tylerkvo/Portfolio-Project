@@ -3992,6 +3992,18 @@ img.u-pull-left {
     padding-bottom   : calc(5.5 * var(--space));
     background-color : #dbcfe8;
 }
+/* ===================================================================
+ * # PROJECT
+ *
+ *
+ * ------------------------------------------------------------------- */
+ .s-project {
+    padding-top      : calc(1.5 * var(--space));
+    padding-bottom   : calc(3 * var(--space));
+    background-color : white;
+}
+
+
 
 /* ------------------------------------------------------------------- 
  * ## portfolio list
