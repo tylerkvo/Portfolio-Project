@@ -36,4 +36,20 @@
 }
   
 
-  
+.mobile-message {
+  display: block;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #ccc;  /* Light gray border */
+  border-radius: 10px;     /* Rounded corners */
+  width: 100%;              /* Responsive width */
+  max-width: 600px;        /* Maximum width */
+  background-color: #f8f8f8; /* Light background color */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+/* Add padding below the message */
+.mobile-message + .break {
+  height: 20px;
+}
