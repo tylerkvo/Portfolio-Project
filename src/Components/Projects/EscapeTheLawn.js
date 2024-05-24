@@ -1,6 +1,6 @@
 import React, { useState, useEffect }from 'react';
 import './project.css'
-import Header from '../Header'
+import { Link } from 'react-router-dom';
 
 function EscapeTheLawn() {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 500); // Threshold for mobile devices
@@ -19,7 +19,7 @@ function EscapeTheLawn() {
         <div className="s-header__block">
           <div className="s-header__branding">
             <p className="site-title">
-              <a href="../" rel="home">tyler vo.</a>
+            <Link to="/" className="site-title">tyler vo.</Link>
             </p>
           </div>
         </div>

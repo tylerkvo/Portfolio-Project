@@ -13,7 +13,7 @@ function Header() {
              <div className="s-header__block">
                 <div className="s-header__branding">
                     <p className="site-title">
-                        <a href="../" rel="home">tyler vo.</a>
+                        <a href="/" rel="home">tyler vo.</a>
                     </p>
                 </div>
 
