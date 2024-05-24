@@ -3396,7 +3396,7 @@ img.u-pull-left {
 
     padding-top                    : var(--vspace-5);
     padding-bottom                 : var(--vspace-3);
-    background-color : #dbcfe8;
+    background-color : --color-gray-10 ;
 }
 
 .s-about__block {
