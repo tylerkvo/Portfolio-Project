@@ -6,7 +6,7 @@ import Works from './Components/Works';
 import Footer from './Components/Footer';
 import Particle from './Components/Particle';
 import Project from './Components/Project';
-import { BrowserRouter as Router, Route, Routes,} from "react-router-dom";
+import { HashRouter as Router, Route, Routes,} from "react-router-dom";
 
 
 function App() {
