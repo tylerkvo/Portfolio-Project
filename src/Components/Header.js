@@ -2,6 +2,10 @@ import React from 'react'
 
 
 function Header() {
+    const scrollToSection = (sectionId) => {
+        const section = document.getElementById(sectionId);
+        section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
   return (
     
     <header id="masthead" className="s-header">
@@ -18,15 +22,15 @@ function Header() {
 
             <div className="row s-header__nav-wrap">
 
-                <nav className="s-header__nav">
-                    <ul>
-                        <li className="current"><a href="../" className="smoothscroll">intro</a></li>
-                        <li><a href="../#about" className="smoothscroll">about</a></li>
-                        <li><a href="../#resume" className="smoothscroll">resume</a></li>
-                        <li><a href="../#works" className="smoothscroll">works</a></li>
-                        <li><a href="../#colophon" className="smoothscroll">contact</a></li>
-                    </ul>
-                </nav> 
+            <nav className="s-header__nav">
+                <ul>
+                    <li><a onClick={() => scrollToSection('intro')}>intro</a></li>
+                    <li><a onClick={() => scrollToSection('about')}>about</a></li>
+                    <li><a onClick={() => scrollToSection('resume')}>resume</a></li>
+                    <li><a onClick={() => scrollToSection('works')}>works</a></li>
+                    <li><a onClick={() => scrollToSection('colophon')}>contact</a></li>
+                </ul>
+            </nav>
 
                 <ul className="s-header__social">
                     

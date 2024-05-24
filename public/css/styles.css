@@ -177,7 +177,7 @@
 
     /* others
      */
-    --color-body                   : #dbcfe8;
+    --color-body                   : white;
     --color-border                 : rgba(0, 0, 0, .08);
     --border-radius                : 3px;
 }
