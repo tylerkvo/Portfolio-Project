@@ -3396,7 +3396,7 @@ img.u-pull-left {
 
     padding-top                    : var(--vspace-5);
     padding-bottom                 : var(--vspace-3);
-    background-color : #dbcfe8;
+    background-color : #f1f3f5 ;
 }
 
 .s-about__block {
@@ -3990,7 +3990,7 @@ img.u-pull-left {
 .s-works {
     padding-top      : calc(6 * var(--space));
     padding-bottom   : calc(5.5 * var(--space));
-    background-color : #dbcfe8;
+    background-color : #f1f3f5;
 }
 /* ===================================================================
  * # PROJECT
