@@ -64,7 +64,7 @@ function resume() {
                         <div className="timeline__block">
                             <div className="timeline__bullet"></div>
                             <div className="timeline__header">
-                                <h4 className="timeline__title">Coastal Cloud</h4>
+                                <h4 className="timeline__title">Coastal</h4>
                                 <h5 className="timeline__meta">Business Analyst Summer Intern</h5>
                                 <p className="timeline__timeframe">May 2022 - July 2022</p>
                             </div>
@@ -83,7 +83,7 @@ function resume() {
                         <div className="timeline__block">
                             <div className="timeline__bullet"></div>
                             <div className="timeline__header">
-                                <h4 className="timeline__title" >Lighthouse Parental Control</h4>
+                                <h4 className="timeline__title" >RedaX Content Moderation</h4>
                                 <h5 className="timeline__meta">Financial Analyst Intern</h5>
                                 <p className="timeline__timeframe">Febuary 2021 - April 2021</p>
                             </div>
