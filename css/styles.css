@@ -2990,6 +2990,11 @@ img.u-pull-left {
     top        : calc(50% - .2rem);
     right      : 3.6rem;
 }
+.s-header__menu-toggle:hover {
+    background-color: transparent;
+    outline: none !important; 
+    border: none !important; 
+}
 
 .s-header__social li {
     padding-left : 0;
@@ -3020,6 +3025,8 @@ img.u-pull-left {
     position : absolute;
     top      : 0;
     right    : 1.6rem;
+    background-color: transparent; 
+    border: none;
 }
 
 .s-header__menu-toggle span {
