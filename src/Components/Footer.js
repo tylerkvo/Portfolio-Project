@@ -25,7 +25,7 @@ function Footer() {
 
                     <div className="s-footer__buttons">
                         <a href="mailto:tyler.k.vo@gmail.com" className="btn btn--primary u-fullwidth">Say Hello</a>
-                        <a href="https://drive.google.com/file/d/1eVgy2Wroe9vfWD7j570d4R2fet94yGlc/view?usp=sharing" className="btn btn--stroke u-fullwidth">Download Resume</a>
+                        <a href="https://drive.google.com/file/d/16INiwgolR-VK3KeE5vsFOAIuydQk5ayH/view?usp=sharing" className="btn btn--stroke u-fullwidth">Download Resume</a>
                     </div>
 
                     
