@@ -1,17 +1,30 @@
-# TylerKVO.com Repository Audit
+# Repository Audit
 
-**Project:** Personal Portfolio / TylerKVO.com  
-**Audit type:** Static code and repository review  
-**Status:** Complete for current-state architecture and technical-debt assessment  
-**Limitation:** The uploaded archive did not include `node_modules`, so the application was not rebuilt or executed during this audit. Build and runtime verification should be completed under the separate Development Environment ticket.
+**Owner:** Tyler Vo
+
+**Status:** Complete
+
+**Version:** 0.1.0
+
+**Last Updated:** August 3, 2026
+
+---
+
+# Purpose
+
+This document captures the findings of the initial audit of the TylerKVO.com repository. It provides a snapshot of the project's current architecture, identifies areas for improvement, and establishes a baseline for future modernization efforts.
+
+The repository audit serves as the starting point for technical planning and guides the work completed during the Website Foundation Epic.
+
+---
 
 ## 1. Executive Summary
 
-TylerKVO.com is a functional single-page React portfolio deployed as a static site through GitHub Pages and connected to the custom domain `tylerkvo.com`. The project has a sensible first-generation component hierarchy and already separates routing, page composition, and several page sections.
+Tylerkvo.com is a functional multi-ish-page React portfolio deployed as a static site through GitHub Pages and connected to the custom domain `tylerkvo.com`. The project has a component hierarchy and already separates routing, page composition, and several page sections.
 
-The project should be **modernized rather than discarded**. Its strongest elements—React, component-based composition, GitHub Pages hosting, the custom domain, and the existing project content—can be retained. The main concerns are an aging Create React App toolchain, template-era JavaScript and CSS living alongside React, duplicated layout markup, hardcoded content, inconsistent JSX, stale or accidental dependencies, limited documentation, missing automated tests, and project links that point to route components that do not exist.
+Rather than be discarded and restarted from scratch, it has potential to be modernized and refreshed. The main concerns are an aging Create React App toolchain, template-era JavaScript and CSS living alongside React, duplicated layout markup, hardcoded content, inconsistent JSX, stale or accidental dependencies, limited documentation, missing automated tests, and project links that point to route components that do not exist.
 
-The recommended direction is a controlled v2 migration: preserve the live site, establish a verified local development workflow, document the architecture, migrate the build system to Vite, introduce TypeScript incrementally, move content into structured data, simplify dependencies, and redesign the application around pages, reusable components, features, and services.
+The direction to be taken is a controlled v2 migration: preserve the live site, establish a verified local development workflow, document the architecture, migrate the build system to Vite, introduce TypeScript incrementally, move content into structured data, simplify dependencies, and redesign the application around pages, reusable components, features, and services.
 
 ## 2. Current Technology Stack
 
@@ -85,7 +98,7 @@ personal-portfolio/
 
 ### Assessment
 
-The structure is understandable for a small Create React App project. It is organized primarily by homepage section rather than by reusable UI, page, feature, or service boundaries. This works at the present size but will become difficult to maintain once travel, fantasy, crossword, blog, and additional portfolio features are introduced.
+The structure was initilaly implemented for a small Create React App project. It is organized primarily by homepage section rather than by reusable UI, page, feature, or service boundaries. This works at the present size but will become difficult to maintain once travel, fantasy, crossword, blog, and additional portfolio features are introduced.
 
 ## 4. Application Architecture
 
@@ -113,7 +126,7 @@ App.js
 └── /projects/:projectId    → Project.js
 ```
 
-`HashRouter` is used, producing URLs such as `/#/projects/Scanner`. This is a common workaround for static hosting because GitHub Pages cannot natively route arbitrary client-side paths back to the React entry page.
+`HashRouter` is used, producing URLs such as `/#/projects/Scanner`. This is a workaround for static hosting because GitHub Pages cannot natively route client-side paths back to the React entry page. This could be updated in a future epic.
 
 ### Homepage composition
 
@@ -136,7 +149,7 @@ Home.js
 /projects/Scanner → ./Projects/Scanner
 ```
 
-This is an inventive lightweight approach, but it is fragile because route names must exactly match filenames and there is no central project registry or validation.
+This is an lightweight approach but it is fragile because route names must exactly match filenames and there is no central project registry or validation.
 
 ## 5. Strengths to Preserve
 
@@ -360,9 +373,9 @@ Priority definitions:
 | Testing Library packages | Appropriate but unused | Move to dev dependencies and add tests, or remove |
 | `-`, `save-dev` | Likely accidental packages | Remove after lockfile verification |
 
-## 8. Recommended Target Architecture
+## 8. Future Target Architecture
 
-The initial target should remain a static React application, without adding a database prematurely.
+The initial target is to remain a static React application, but eventually adding a database.
 
 ```text
 src/
@@ -479,38 +492,3 @@ src/
 - Direct DOM scripts where React equivalents are practical
 - Unused Web Vitals scaffolding
 - Inconsistent JSX and invalid HTML structures
-
-## 11. Proposed Follow-Up Jira Tickets
-
-These should be created or refined after completing the current Repository Audit story:
-
-1. **Verify local development and production build**
-2. **Document current GitHub Pages deployment configuration**
-3. **Add repository ignore rules and remove generated artifacts**
-4. **Create architecture and engineering standards documentation**
-5. **Migrate Create React App to Vite**
-6. **Configure TypeScript, ESLint, and Prettier**
-7. **Create baseline automated tests**
-8. **Replace dynamic project imports with a project registry**
-9. **Move portfolio content into structured data**
-10. **Remove unused template scripts, components, and dependencies**
-11. **Complete accessibility baseline audit**
-12. **Review public contact information and refresh professional content**
-
-## 12. Repository Audit Definition of Done Assessment
-
-- [x] Repository structure reviewed
-- [x] Current architecture documented
-- [x] Technology stack and major dependencies identified
-- [x] Deployment approach identified from repository configuration
-- [x] Technical debt and risks documented
-- [x] Modernization recommendations documented
-- [x] Follow-up work proposed
-- [ ] Local install, runtime, build, and deployment behavior verified — belongs to the Development Environment story
-- [ ] Audit committed to the Git repository — action for repository owner
-
-## 13. Final Recommendation
-
-Do not rebuild the website as an unrelated greenfield project. Create a protected modernization branch and evolve the existing application in controlled, testable stages. The project has enough sound structure and valuable content to preserve, while the tooling and architecture are simple enough to modernize without excessive migration risk.
-
-The immediate next engineering task should be **Development Environment verification**, followed by **Architecture documentation and the Vite migration plan**. New user-facing features should begin after the foundation can be built, tested, and deployed reliably.
