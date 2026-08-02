@@ -1,13 +1,26 @@
-# TylerKVO.com Repository Audit
+# Repository Audit
 
-**Project:** Personal Portfolio / TylerKVO.com  
-**Audit type:** Static code and repository review  
-**Status:** Complete for current-state architecture and technical-debt assessment  
-**Limitation:** The uploaded archive did not include `node_modules`, so the application was not rebuilt or executed during this audit. Build and runtime verification should be completed under the separate Development Environment ticket.
+**Owner:** Tyler Vo
+
+**Status:** Complete
+
+**Version:** 0.1.0
+
+**Last Updated:** August 3, 2026
+
+---
+
+# Purpose
+
+This document captures the findings of the initial audit of the TylerKVO.com repository. It provides a snapshot of the project's current architecture, identifies areas for improvement, and establishes a baseline for future modernization efforts.
+
+The repository audit serves as the starting point for technical planning and guides the work completed during the Website Foundation Epic.
+
+---
 
 ## 1. Executive Summary
 
-TylerKVO.com is a functional single-page React portfolio deployed as a static site through GitHub Pages and connected to the custom domain `tylerkvo.com`. The project has a sensible first-generation component hierarchy and already separates routing, page composition, and several page sections.
+Tylerkvo.com is a functional single-page React portfolio deployed as a static site through GitHub Pages and connected to the custom domain `tylerkvo.com`. The project has a sensible first-generation component hierarchy and already separates routing, page composition, and several page sections.
 
 The project should be **modernized rather than discarded**. Its strongest elements—React, component-based composition, GitHub Pages hosting, the custom domain, and the existing project content—can be retained. The main concerns are an aging Create React App toolchain, template-era JavaScript and CSS living alongside React, duplicated layout markup, hardcoded content, inconsistent JSX, stale or accidental dependencies, limited documentation, missing automated tests, and project links that point to route components that do not exist.
 
