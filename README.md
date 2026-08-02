@@ -133,6 +133,16 @@ Portfolio-Project/
 
 # Getting Started
 
+## Prerequisites
+
+Install the following tools before running the project locally:
+
+- Node.js
+- npm
+- Git
+
+## Local Development
+
 Clone the repository.
 
 ```bash
