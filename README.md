@@ -15,15 +15,15 @@ tylerkvo.com is more than a personal portfolio.
 
 It is a long-term software engineering project designed to showcase my professional experience while serving as a hands-on environment for learning modern software architecture, product management, and engineering best practices.
 
-Rather than simply building a website, this repository documents the complete lifecycle of designing, architecting, developing, deploying, and maintaining a production-quality software product.
+Rather than simply building a website, this repository documents the complete lifecycle of designing, architecting, developing, deploying, and maintaining a production-quality software product. I utilize Jira and Github as channels to manage my work as I would in a professional environment
 
-The goal is to become a better engineer by intentionally applying professional software development practices throughout the project.
+The goal is to become a better product manager and engineer by intentionally applying professional software development practices throughout the project.
 
 ---
 
 # Vision
 
-Create one of the most engaging and interactive personal portfolio websites possible while continuously learning professional software engineering.
+Create one of the most engaging and interactive personal portfolio websites possible while continuously learning professional software design.
 
 The website will evolve into a platform that combines:
 
@@ -167,7 +167,7 @@ npm run deploy
 
 # Development Workflow
 
-This project follows a lightweight professional development workflow.
+This project follows a lightweight but semi professional development workflow.
 
 1. Create a Jira Story
 2. Move the Story to **In Progress**
@@ -200,12 +200,12 @@ Project documentation is maintained within the `/docs` directory.
 
 Documentation includes:
 
-- Product Vision
 - Repository Audit
+- Product Vision
 - Roadmap
 - System Architecture
 - Engineering Standards
-- Architecture Decision Records (ADRs)
+- Architecture Decision Records
 
 ---
 
@@ -242,7 +242,7 @@ Topics include:
 - TypeScript
 - CI/CD
 
-The objective isn't simply to learn these technologies—it is to understand how they work together to build maintainable software.
+The objective isn't simply to learn these technologies but to actually understand how they work together to build maintainable software. Yes- AI is awesome but I aim to not just regurgitate code but understand and leverage it to develop an end to end product.
 
 ---
 
@@ -271,7 +271,7 @@ Although this is currently a personal project, feedback, suggestions, and discus
 
 # About Me
 
-I'm Tyler Vo, a Technology Consultant with a passion for Product Management, software engineering, and building thoughtful user experiences.
+I'm Tyler Vo, a Technology Consultant with a passion for Product Management, software engineering, and building thoughtful, engaging user experiences.
 
 This project represents my commitment to becoming a better engineer by learning through building.
 
